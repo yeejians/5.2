@@ -1,6 +1,0 @@
-
-**** ERROR file opened at 20160602 190609 Malay Peninsula Standard Time, SAP-REL 740,0,89 RFC-VER 3  MT-SL
-T:4676 Error in program 'SAPCPIC': ======> SAPLOGON_ID 'L02' not found in saplogon.ini
-
-**** ERROR file opened at 20160602 192628 Malay Peninsula Standard Time, SAP-REL 740,0,89 RFC-VER 3  MT-SL
-T:5384 Error in program 'php-cgi': <* RfcGetFunctionInfoAsTable [1] : returns 2:RFC_EXCEPTION
