@@ -1,0 +1,10 @@
+
+**** Trace file opened at 20160602 190609 Malay Peninsula Standard Time, by SAPCPIC
+**** Versions SAP-REL 740,0,89 RFC-VER U 3  MT-SL
+
+
+>>> RfcOpenEx ...
+ Got following connect_param string: 
+   SAPLOGON_ID=L02 CLIENT=300 USER=RFC_USER PASSWD=******* LANG=EN 
+<<< RfcOpenEx failed
+

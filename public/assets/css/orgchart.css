@@ -1,0 +1,79 @@
+div.orgChart {
+	margin: 10px;
+	padding: 20px;
+}
+
+div.orgChart h2 {
+	margin: 0;
+	font-size: 1em;
+}
+
+div.orgChart ul {
+	list-style: none;
+	margin: 4px;
+	padding: 0;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+div.orgChart ul.stack,
+div.orgChart ul.stack ul {
+	text-align: center;
+}
+
+div.orgChart table {
+	width: 100%;
+}
+
+div.orgChart tr.lines td.line {
+	width: 1px;
+	height: 20px;
+}
+
+div.orgChart tr.lines td.top {
+	border-top: 2px solid #39b3d7;
+}
+
+div.orgChart tr.lines td.left {
+	border-right: 2px solid #39b3d7;
+}
+
+div.orgChart tr.lines td.right {
+	border-left: 2px solid #39b3d7;
+}
+
+div.orgChart td {
+	text-align: center;
+	vertical-align: top;
+	padding: 0px 2px;
+}
+
+div.orgChart div.node {
+	cursor: default;
+	border: 1px solid #39b3d7;
+	display: inline-block;
+	padding: 9px 12px 9px 12px;
+	background-color: #39b3d7;
+	line-height: 1.3em;
+	color: #fff;
+
+	border-radius: 8px;
+	box-shadow: 4px 4px 6px #888;
+	-moz-border-radius: 8px;
+	-moz-box-shadow: 4px 4px 6px #888;
+	-webkit-border-radius: 8px;
+	-webkit-box-shadow: 4px 4px 6px #888;
+}
+
+div.orgChart div.node.current,
+div.orgChart div.node.current a{
+	border: 2px solid #3276b1;
+	background-color: #3276b1;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.orgChart div.node a {
+	text-decoration: none;
+	color: #fff;
+}

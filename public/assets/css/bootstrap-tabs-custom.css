@@ -1,0 +1,53 @@
+.tabbable-vertical {
+	margin: 10px 0;
+	overflow: hidden;
+/*	display: table;*/
+	display: flex;
+	width: 100%;
+}
+
+.tabbable-vertical .tab-nav-vertical,
+.tabbable-vertical .tab-content-vertical {
+/*	float: none;*/
+/*	display: table-cell;*/
+/*	vertical-align: top;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.tab-nav-vertical {	
+	padding-right: 0px;
+}
+
+.tab-content-vertical {
+	padding: 10px 15px;
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.tabs-left,
+.tabs-right {
+	height: 100%;
+	padding-top: 0;
+}
+
+.tabs-left > li.active > a,
+.tabs-left > li.active > a:hover,
+.tabs-left > li.active > a:focus {
+	border-bottom-color: #ddd;
+	border-right-color: #fff;
+}
+
+.tabs-right > li.active > a,
+.tabs-right > li.active > a:hover,
+.tabs-right > li.active > a:focus {
+	border-bottom: 1px solid #ddd;
+	border-left-color: #fff;
+}
+
+.tabs-left >li,
+.tabs-right > li {
+	float: none;
+	margin-bottom: 0;
+}

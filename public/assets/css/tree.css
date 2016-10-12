@@ -1,0 +1,79 @@
+ul.tree,
+ul.tree ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tree ul {
+	margin-left: 40px;			/* vertical line margin */
+	position: relative;
+}
+
+ul.tree ul:before {
+	content: "";
+	display: block;
+	width: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	border-left: 1px solid;
+}
+
+ul.tree li {
+  	margin: 0;
+	padding:0 12px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #369;
+	font-weight: bold;
+	position: relative;
+}
+
+ul.tree ul li:before {
+	content: "";
+	display: block;
+	width: 12px;				/** horizontal line width **/
+	height: 0;
+	border-top: 1px solid;
+	position: absolute;
+	top: 25px;					/** horizontal line height**/
+	left: 0;
+}
+
+ul.tree ul li:last-child:before {
+	background: #eeeeee;
+	height:auto;
+	top: 25px;					/** last line height */
+	bottom:0;
+}
+
+ul.tree li a,
+ul.tree ul li a {
+	text-decoration: none;
+	margin-top: 10px;
+	padding: 5px 10px;
+	display: inline-block;
+	border: 1px solid #6f9dd9;
+	background: #fff;
+	font-family: arial, verdana, tahoma;
+	font-size: 12px;
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+ul.tree li a.current,
+ul.tree ul li a.current {
+	border-color: #66afe9;
+
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #66afe9;
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #66afe9;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #66afe9;
+}

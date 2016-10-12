@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Hairline.eot');
+	src: url('../fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Lato-Hairline.woff') format('woff'),
+		 url('../fonts/Lato-Hairline.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #b0bec5;
+	display: table;
+	font-weight: 100;
+	font-family: 'Lato';
+}
+
+.container {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.content {
+	text-align: center;
+	display: inline-block;
+}
+
+.title {
+	font-size: 72px;
+	margin-bottom: 40px;
+	color: red;
+}
+
+.message {
+	font-size: 36px;
+	color: #3399ff;
+}
+
+.support,
+.support a {
+	font-size: 24px;
+	margin-top: 40px;
+	color: #3399ff;
+	text-decoration: none;
+}

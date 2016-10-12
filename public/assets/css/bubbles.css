@@ -1,0 +1,46 @@
+
+p {
+	margin: 0 0 10px;;
+}
+
+.chat {
+	margin: 0 auto;
+}
+
+.check {
+	float: left;
+}
+
+.bubble {
+	background-color: #fffff5;
+	border: 1px solid #bbb;
+	margin: 1px 1px 1em 1px;
+	display: inline-block;
+	position: relative;
+	padding: 5px 10px;
+	vertical-align: top;
+	text-align: left;
+	max-width: 70%;
+	border-radius: 5px;
+	box-shadow: 0 1px 6px #b2b2b2;
+}
+
+.wrapper .attach {
+	display: inline-block;
+}
+
+.wrapper .attach h1 {
+	margin-top: 3px;
+	margin-bottom: 1px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
